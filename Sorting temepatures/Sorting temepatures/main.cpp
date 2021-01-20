@@ -10,6 +10,7 @@
 
 using namespace std;
 
+
 vector <int> analyzeTemps (vector<int> t,int vSize) {
     vector<int> T;//final array which will consist of number of days
     int value;
@@ -47,3 +48,4 @@ int main() {
     
     return 0;
 }
+
