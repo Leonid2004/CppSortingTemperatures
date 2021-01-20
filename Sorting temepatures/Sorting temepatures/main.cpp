@@ -27,9 +27,10 @@ vector <int> analyzeTemps (vector<int> t,int vSize) {
     			T.push_back((j+1)-i);
     			break;
 			}
+            
 		}
 	}
-    
+    T.push_back(0);
     return T;
     
 }
@@ -37,7 +38,7 @@ vector <int> analyzeTemps (vector<int> t,int vSize) {
 int main() {
 
 	vector <int> vV;
-   vector <int> result = analyzeTemps(vV,7);
+   vector <int> result = analyzeTemps(vV,8);
     
     for (int i = 0; i < result.size();i++) {
     	cout <<result[i]<<" ";
